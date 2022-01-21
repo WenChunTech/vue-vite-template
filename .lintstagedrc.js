@@ -1,0 +1,4 @@
+module.exports = {
+  '**/*.{js,jsx}': ['prettier --config .prettierrc --write', 'eslint --fix'],
+  '**/*.less': ['stylelint --fix']
+}
